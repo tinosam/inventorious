@@ -2,7 +2,7 @@
 
 An inventory management and tracking system built with Ruby on Rails 5.
 
-!["Dashboard"](https://github.com/zmitzie/inventorious/blob/master/dashboard_screenshot.png "Dashboard")
+<!-- !["Dashboard"](https://github.com/zmitzie/inventorious/blob/master/dashboard_screenshot.png "Dashboard") -->
 
 Demo: [https://#/](https://inventorious.herokuapp.com/)
 
