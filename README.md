@@ -4,8 +4,6 @@ An inventory management and tracking system built with Ruby on Rails 5.
 
 <!-- !["Dashboard"](https://github.com/zmitzie/inventorious/blob/master/dashboard_screenshot.png "Dashboard") -->
 
-Demo: [https://#/](https://inventorious.herokuapp.com/)
-
 ## Description
 
 Gestion Inventaire Ruby on rails
@@ -18,7 +16,7 @@ Gestion Inventaire Ruby on rails
 - Install [RubyGems](https://rubygems.org/pages/download)
 - run `gem install rails -v 5.0.2`
 
-### Download Repo
+<!-- ### Download Repo
 
 - Download this repo, and unzip it
 - `cd inventorious` to cd into the folder
@@ -49,4 +47,4 @@ If you are deploying to Heroku, set `HEROKU_URL` as the url of your app!
 - Run `rails s` to start the server
 - Without stoping the server, open another terminal window and run `rake jobs:work` (needed in order for ActionMailer to work and deliver emails)
 - Visit http://localhost:3000
-- Use `demo@demo.com` `change_me` for the email and password. Change the password and email once you login. Create more users via the Console.
+- Use `demo@demo.com` `change_me` for the email and password. Change the password and email once you login. Create more users via the Console. -->
