@@ -3,7 +3,7 @@
   <a href="<%= root_url %>" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini">
-      <b>f</b>inv</span>
+      <b>G</b>Stock</span>
     <!-- logo for regular state and mobile devices -->
     <span class="logo-lg">
       <b>Gestion de Stock (G.S)</b>
@@ -13,7 +13,7 @@
   <nav class="navbar navbar-static-top">
     <!-- Sidebar toggle button-->
     <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-      <span class="sr-only">Toggle navigation</span>
+      <span class="sr-only">Basculer la navigation</span>
     </a>
   </nav>
 </header>
@@ -30,45 +30,45 @@
         <p><%= current_user.name %></p>
         <a href="<%= edit_user_path(current_user.id) %>">
           <i class="fa fa-edit"></i>
-          Edit Profile</a>
+         Editer le profil</a>
         <a href="">
           <%= link_to destroy_user_session_path, method: :delete  do %>
-          <i class="fa fa-sign-out"></i>Log Out
+          <i class="fa fa-sign-out"></i>Déconnexion
         <% end %>
         </a>
       </div>
     </div>
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu">
-      <li class="header">MAIN NAVIGATION</li>
+      <li class="header">Navigation mère</li>
       <li>
         <a href="<%= root_url %>">
           <i class="fa fa-home"></i>
-          <span>Home Page</span>
+          <span>Page d'accueil</span>
         </a>
       </li>
       <li>
         <a href="<%= items_path %>">
           <i class="fa fa-search"></i>
-          <span>Check Inventory</span>
+          <span>Vérifier l'inventaire</span>
         </a>
       </li>
       <li>
         <a href="<%= past_orders_path %>">
           <i class="fa fa-history"></i>
-          <span>Past Orders</span>
+          <span>Commandes passées</span>
         </a>
       </li>
       <li>
         <a href=" <%= new_item_path %>">
           <i class="fa fa-plus"></i>
-          <span>Add Item</span>
+          <span>Ajouter un item</span>
         </a>
       </li>
       <li>
         <a href="<%= new_member_path %>">
           <i class="fa fa-user-plus"></i>
-          <span>Add Member</span>
+          <span>Ajouter un membre</span>
         </a>
       </li>
     </ul>
